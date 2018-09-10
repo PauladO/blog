@@ -7,6 +7,9 @@
     </a>
   {% endif %}
 
+  {% include custom-icon-links.html %}
+  
+
   {% comment %}
     Check if we have tag or search pages page active before linking to it.
   {% endcomment %}
@@ -37,6 +40,4 @@
       {% include svg/search.svg %}
     </a>
   {% endif %}
-
-  {% include custom-icon-links.html %}
 </nav>

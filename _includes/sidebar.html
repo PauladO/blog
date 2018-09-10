@@ -1,5 +1,7 @@
 <div id="sidebar">
+  <img src="{{ site.baseurl }}/icon.jpg" alt="" class="profile-image">
   <header>
+
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
@@ -13,5 +15,6 @@
   {% include sidebar-nav-links.html %}
 
   {% include sidebar-icon-links.html %}
-  {% include copyright.html %}
+  
+  <div style="font-size: 8px">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </div>

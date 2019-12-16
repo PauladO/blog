@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            Paula den Ouden
-tagline:          'A blog about code'
-description:      'A blog about code.'
+tagline:          'My portfolio and a blog about code'
+description:      'My portfolio and a blog about code.'
 url:              https://fongandrew.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"

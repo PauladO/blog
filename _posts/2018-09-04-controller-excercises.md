@@ -4,7 +4,7 @@ layout: post
 excerpt: "We have a model, let's say it's a Human model. Now some of our humans may want to lose weight, so they can become a FitnessGroupMember in a gym. Obviously they can join different gyms and different fitness groups. Some of these humans are reported to occasionally hang out with other people, but not all of them do so. It really depends, but if a human is introverted, they generally do not hang out in with strangers."
 last_modified_at: 2018-09-04T19:27:01
 categories:
-  - Refactoring
+  - Archive
 tags:
   - code
   - refactoring

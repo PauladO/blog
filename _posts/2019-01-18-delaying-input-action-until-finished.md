@@ -4,7 +4,7 @@ layout: post
 excerpt: "I recently encountered a problem in Angular, where an api was called on keyup in a field. Typescript has a handy little debounce option for this. But upon logging the api call, it quickly became clear that, though debounce does delay the action, it doesn't seem to cancel it. That defeated the purpose of the debounce. I would type 3 letters, it would wait until I had finished, and then make 3 api calls. So I quickly cooked up a simple solution."
 last_modified_at: 2018-09-04T19:27:01
 categories:
-  - code snippet
+  - Archive
 tags:
   - code
   - javascript
